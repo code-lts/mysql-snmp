@@ -22,10 +22,10 @@ mysql-snmp \- MySQL-Server SNMP agent for Net-SNMP
 .RI "[ options ]"
 .SH DESCRIPTION
 .B mysql-snmp
-is a Net-SNMP (snmpd) agent that can be used to monitor a MySQL server with SNMP. 
+is a Net-SNMP (snmpd) agent that can be used to monitor a MySQL server with SNMP.
 .PP
 .\" TeX users may be more comfortable with the \fB<whatever>\fP and
-.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
 .\" respectively.
 .SH OPTIONS
 These programs follow the usual GNU command line syntax, with long
@@ -75,7 +75,7 @@ adds SNMP counters for masters
 adds SNMP counters for slaves
 
 .TP
-.B \-b,\-\-heartbeat DB.TABLE 
+.B \-b,\-\-heartbeat DB.TABLE
 compute slave lag with the Percona Toolkit pt-heartbeat stamp
 table. (Note that this option has no effect if \-\-slave is not also
 specified.)
@@ -89,7 +89,7 @@ anchor the MIB to this root OID
 refresh interval in seconds
 
 .SH MYSQL CONFIGURATION
-You can specify the mysql connection parameters in a config file using 
+You can specify the mysql connection parameters in a config file using
 my.cnf format, like this:
 
 .sp
